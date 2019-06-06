@@ -1,3 +1,22 @@
 h1 {
   color: red;
 }
+.header-left {
+  float: left;
+}
+
+.header-center {
+  float: left;
+  position: relative;
+  left: 700px;
+}
+
+.header-right {
+  float: right;
+}
+.post {
+  display: inline-block;
+  background: red;
+  padding: 10px;
+  border-radius: 5px;
+}
