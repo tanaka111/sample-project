@@ -26,3 +26,11 @@ header {
   padding: 10px;
   border-radius: 5px;
 }
+
+.wrapper {
+  width:100%;
+}
+
+.image-content img {
+  width: 100%;
+}
