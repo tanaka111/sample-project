@@ -1,18 +1,24 @@
 h1 {
   color: red;
 }
+header {
+  height: 80px;
+  border: 1px solid gray;
+}
 .header-left {
   float: left;
+  margin: 20px 0 0 200px;
 }
 
 .header-center {
   float: left;
   position: relative;
-  left: 700px;
+  left: 400px;
 }
 
 .header-right {
   float: right;
+  margin: 20px 200px 0 0;
 }
 .post {
   display: inline-block;
