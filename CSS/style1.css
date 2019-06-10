@@ -64,3 +64,22 @@ header {
   width: 0px;
   margin: 0 auto;
 }
+
+.items {
+  width: 100%;
+  margin: 50px 0 50px 0;
+  display: flex;
+}
+.item {
+  border: 3px solid;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin-left: 200px;
+  text-align: center;
+}
+.item-text {
+  line-height: 200px;
+  display: inline;
+  font-size: 15px;
+}
