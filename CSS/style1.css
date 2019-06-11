@@ -83,3 +83,28 @@ header {
   display: inline;
   font-size: 15px;
 }
+
+.main-wrapper {
+  display: flex;
+}
+
+.main-wrapper img {
+  width: 50%;
+}
+
+.main-text {
+  width: 50%;
+  background: lightgrey;
+}
+
+.main-text p{
+  margin: 20px 0 0 15px;
+  color: white;
+}
+
+.text-content {
+  width: 70%;
+}
+.main-content {
+  width: 100%;
+}
