@@ -4,8 +4,11 @@ body p{
 
 header {
   height: 80px;
-  border: 1px solid gray;
   border-bottom: none;
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 10;
 }
 .header-left {
   float: left;
@@ -16,6 +19,7 @@ header {
   float: left;
   position: relative;
   left: 400px;
+  margin-top: 20px;
 }
 
 .header-right {
@@ -84,6 +88,12 @@ header {
   font-size: 15px;
 }
 
+.my-big {
+  font-size: 50px;
+  position: relative;
+  bottom: 50px;
+}
+
 .main-wrapper {
   display: flex;
 }
@@ -138,4 +148,15 @@ header {
 
 .form-tel {
   font-size: 20px;
+}
+
+footer {
+  height: 80px;
+  background: lightgrey;
+}
+
+.footer-left p {
+  position: relative;
+  top: 40px;
+  left: 100px;
 }
